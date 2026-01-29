@@ -15,8 +15,8 @@ Do NOT use these techniques on real systems without permission.
 ## Usage
 
 ```bash
-git clone https://github.com/samrat-xyz/bcrypt_hash-cracking.git
-cd bcrypt_hash-cracking
+git clone https://github.com/md-samrat/bcrypt_hash-cracking-by-john.git
+cd bcrypt_hash-cracking-by-john
 john --format=bcrypt --wordlist=/usr/share/wordlists/rockyou.txt --rules bcrypt_hash.txt
 john --format=bcrypt --show bcrypt_hash.txt
 
